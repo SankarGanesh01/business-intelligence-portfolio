@@ -1,0 +1,39 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor settings
+.vscode/
+.idea/
+
+# Environment variables and credentials
+.env
+.env.*
+!.env.example
+
+# Temporary and log files
+*.tmp
+*.temp
+*.log
+~$*
+
+# SQL Server local database files
+*.mdf
+*.ldf
+*.bak
+
+# Local Power BI backup files
+*.pbix.bak
+*.pbit.bak
+
+# Local datasets - uncomment if you decide not to publish CSV files
+# data/*.csv
+# data/*.xlsx
+
+# Python cache, if Python scripts are added later
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
